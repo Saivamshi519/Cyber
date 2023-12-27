@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: red;
+}
+/* hhhhh */
+.facebook{
+    color: blue;
+    font-size: 50px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+ul{
+    display: flex;
+    background-color: rgb(202, 197, 197);
+    justify-content: space-evenly;
+    
+}
+li{
+    padding-left: 20px;
+    list-style: none;
+    font-size: 20px;
+    padding-top: 15px;
+}
+.mouse{
+    border: 2px solid green;
+    padding: 30px 10px 20px 10px;
+    margin: 100px 20px 50px 30px;
+}
+.image1{
+    width: 200px;
+    height: 50px;
+    margin-left: 150px;
+    
+}
+.class1{
+    margin-left: 200px;
+}
+li:hover{
+    color: orangered;
+    text-decoration: underline;
+}
+.image1:hover{
+    border: 2px solid black;
+    background-color: aquamarine;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    transition: 3s;
+}
+.box:hover{
+    background-color: green;
+    border: 5px solid yellow;
+    transform: translateY(-50px);
+}
+.searchbar{
+    width: 500px;
+    height: 50px;
+    margin: 50px;
+}
+.searchbar:focus{
+    border: 5px solid palevioletred;
+    border-radius: 30px;
+}
+table{
+    border: 3px solid black;
+    margin: 20px;
+}
+table>tr>th{
+    border: 1px solid black;
+    padding: 30px;
+}
+table>tr>td{
+    border: 1px solid black;
+    padding: 30px;
+}
